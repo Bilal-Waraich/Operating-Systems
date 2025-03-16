@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bilalwaraich/Desktop/Computer Science/Fall 2024/Operating System/OS Projects/Assignment_1'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000039D8, symSize: 0x234 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _verbose, symObjAddr: 0x1054, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5D, offset: 0x5D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000039D8, symSize: 0x234 }
+  - { offsetInCU: 0xE6, offset: 0xE6, size: 0x8, addend: 0x0, symName: _unset, symObjAddr: 0x234, symBinAddr: 0x100003C0C, symSize: 0x84 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _isenv, symObjAddr: 0x2B8, symBinAddr: 0x100003C90, symSize: 0x34 }
+  - { offsetInCU: 0x132, offset: 0x132, size: 0x8, addend: 0x0, symName: _set, symObjAddr: 0x2EC, symBinAddr: 0x100003CC4, symSize: 0x84 }
+  - { offsetInCU: 0x156, offset: 0x156, size: 0x8, addend: 0x0, symName: _show, symObjAddr: 0x370, symBinAddr: 0x100003D48, symSize: 0x64 }
+  - { offsetInCU: 0x196, offset: 0x196, size: 0x8, addend: 0x0, symName: _exec, symObjAddr: 0x3D4, symBinAddr: 0x100003DAC, symSize: 0xE8 }
+...
